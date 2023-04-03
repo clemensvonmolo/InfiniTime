@@ -56,9 +56,11 @@ namespace Pinetime {
       static constexpr size_t MaximumMessageSize() {
         return MessageSize;
       };
+
       bool IsEmpty() const {
         return size == 0;
       }
+
       size_t NbNotifications() const;
 
     private:
